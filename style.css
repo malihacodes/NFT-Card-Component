@@ -1,0 +1,105 @@
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body{
+
+      background-color: hsl(217, 54%, 11%);
+      min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.25rem;
+    }
+
+.card{
+
+  background-color: hsl(216, 50%, 16%);
+  width:25%;
+  padding:1.5rem;
+  border-radius: 14px;
+}
+
+      .container{
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%) ;
+    margin-bottom: 1.25rem;
+      }
+
+
+      .container2{
+
+        display: flex;
+        
+        
+     }
+    
+.last-para{
+
+  margin-left: .5rem;
+}
+     #img{
+
+      width: 100%;
+      border-radius: 10px;
+     }
+
+
+     h5{
+          color:hsl(0, 0%, 100%);
+          font-family: 'Outfit', sans-serif;
+          padding:1.2rem;
+          font-size: 1.3rem;
+
+     }
+
+
+     p{
+      color:hsl(215, 51%, 70%);
+      font-size: 18px;
+      font-weight: 400;
+margin-bottom: 1.25rem;
+
+     }
+
+#name{
+
+  color: hsl(0, 0%, 100%);
+}
+     #avatar{
+
+      width: 2.8rem;
+      border: 1px white solid;
+      border-radius: 35px;
+     }
+
+
+     #ethereum{
+
+      color:hsl(178, 100%, 50%);
+      font-weight:300;
+     
+     }
+
+     #name{
+
+      color: hsl(0, 0%, 100%);
+      
+     }
+
+     @media (min-width: 500px) {
+      .card{
+          width: 400px;
+      }
+      }
+    
+  
